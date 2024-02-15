@@ -1,6 +1,4 @@
-export default function Container(
-    props: {data: ICurrentProps[]}
-) {
+export default function Container {
     if(!props.data?.length) {
         return(
             <div>
