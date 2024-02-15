@@ -7,7 +7,7 @@ export default function Home() {
   var apiKey = "c3d79670c1549f4b1657910ed1302c9b";
   var url = `https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid=${apiKey}`;
 
-  const [data, setData] = useState<[]>([]);
+  const [data, setData] = useState<ICurrentProps[]>([]);
   const city = 'Vancouver';
 
   const GrabInfo = () => {
