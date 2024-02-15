@@ -1,5 +1,4 @@
 export default function Container {
-    if(!props.data?.length) {
         return(
             <div>
                 <h1>No users found</h1>
